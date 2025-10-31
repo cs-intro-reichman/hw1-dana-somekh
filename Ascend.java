@@ -1,6 +1,6 @@
 public class Ascend {
 	public static void main(String[] args) {
-		int limit = Integer.parseInt(args[0]); // להבין איך ניתן להגביל ערכים מעל 0
+		int limit = Integer.parseInt(args[0]); 
 		int a = (int) (Math.random() * limit);
 		int b = (int) (Math.random() * limit);
 		int c = (int) (Math.random() * limit);
