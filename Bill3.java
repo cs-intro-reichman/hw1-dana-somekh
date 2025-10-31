@@ -6,6 +6,6 @@ public class Bill3 {
 		int amount = Integer.parseInt(args[3]);
 		double dividedamount = amount / 3.0;
 		double finalamount = Math.ceil(dividedamount);
-		System.out.println("Dear " + name3 + " " + name2 + ", and " + name1 + ": pay " + finalamount + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + finalamount + " Shekels each.");
 	}
 }
